@@ -1,0 +1,701 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'client-session' ]
+2 info using npm@4.0.3
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData client-session
+8 silly fetchNamedPackageData client-session
+9 silly mapToRegistry name client-session
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'client-session',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'client-session',
+12 silly mapToRegistry   name: 'client-session',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/client-session
+14 verbose request uri https://registry.npmjs.org/client-session
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 3:17:17 PM
+17 verbose request id 75b5131fec9ecb09
+18 verbose etag W/"582543bb-45ea"
+19 verbose lastModified Fri, 11 Nov 2016 04:06:19 GMT
+20 http request GET https://registry.npmjs.org/client-session
+21 http 304 https://registry.npmjs.org/client-session
+22 verbose headers { date: 'Sun, 11 Dec 2016 20:17:17 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"582543bb-45ea"',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-ord1737-ORD',
+22 verbose headers   'x-cache': 'MISS',
+22 verbose headers   'x-cache-hits': '0',
+22 verbose headers   'x-timer': 'S1481487437.799638,VS0,VE19',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 11 Dec 2016 20:17:17 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"582543bb-45ea"',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-ord1737-ORD',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1481487437.799638,VS0,VE19',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/client-session from cache
+25 verbose get saving client-session to /home/vanessa/.npm/registry.npmjs.org/client-session/.cache.json
+26 verbose correctMkdir /home/vanessa/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule client-session@0.1.7 checking installable status
+40 silly cache add args [ 'client-session', null ]
+41 verbose cache add spec client-session
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'client-session',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'client-session',
+42 silly cache add   name: 'client-session',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed client-session@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for client-session
+45 info addNameTag [ 'client-session', 'latest' ]
+46 silly mapToRegistry name client-session
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'client-session',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'client-session',
+49 silly mapToRegistry   name: 'client-session',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/client-session
+51 verbose addNameTag registry:https://registry.npmjs.org/client-session not in flight; fetching
+52 verbose get https://registry.npmjs.org/client-session not expired, no request
+53 silly addNameTag next cb for client-session with tag latest
+54 silly addNamed client-session@0.1.7
+55 verbose addNamed "0.1.7" is a plain semver version for client-session
+56 silly cache afterAdd client-session@0.1.7
+57 verbose afterAdd /home/vanessa/.npm/client-session/0.1.7/package/package.json not in flight; writing
+58 verbose correctMkdir /home/vanessa/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /home/vanessa/.npm/client-session/0.1.7/package/package.json written
+60 silly fetchNamedPackageData cookie
+61 silly mapToRegistry name cookie
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'cookie',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'cookie',
+64 silly mapToRegistry   name: 'cookie',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/cookie
+66 verbose request uri https://registry.npmjs.org/cookie
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 3:17:18 PM
+69 verbose etag W/"58490118-8062"
+70 verbose lastModified Thu, 08 Dec 2016 06:43:36 GMT
+71 http request GET https://registry.npmjs.org/cookie
+72 http 304 https://registry.npmjs.org/cookie
+73 verbose headers { date: 'Sun, 11 Dec 2016 20:17:18 GMT',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   etag: 'W/"58490118-8062"',
+73 verbose headers   age: '166',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'x-served-by': 'cache-ord1737-ORD',
+73 verbose headers   'x-cache': 'HIT',
+73 verbose headers   'x-cache-hits': '3',
+73 verbose headers   'x-timer': 'S1481487438.248897,VS0,VE0',
+73 verbose headers   vary: 'Accept-Encoding' }
+74 silly get cb [ 304,
+74 silly get   { date: 'Sun, 11 Dec 2016 20:17:18 GMT',
+74 silly get     via: '1.1 varnish',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     etag: 'W/"58490118-8062"',
+74 silly get     age: '166',
+74 silly get     connection: 'keep-alive',
+74 silly get     'x-served-by': 'cache-ord1737-ORD',
+74 silly get     'x-cache': 'HIT',
+74 silly get     'x-cache-hits': '3',
+74 silly get     'x-timer': 'S1481487438.248897,VS0,VE0',
+74 silly get     vary: 'Accept-Encoding' } ]
+75 verbose etag https://registry.npmjs.org/cookie from cache
+76 verbose get saving cookie to /home/vanessa/.npm/registry.npmjs.org/cookie/.cache.json
+77 verbose correctMkdir /home/vanessa/.npm correctMkdir not in flight; initializing
+78 silly resolveWithNewModule cookie@0.1.2 checking installable status
+79 silly cache add args [ 'cookie@0.1.2', null ]
+80 verbose cache add spec cookie@0.1.2
+81 silly cache add parsed spec Result {
+81 silly cache add   raw: 'cookie@0.1.2',
+81 silly cache add   scope: null,
+81 silly cache add   escapedName: 'cookie',
+81 silly cache add   name: 'cookie',
+81 silly cache add   rawSpec: '0.1.2',
+81 silly cache add   spec: '0.1.2',
+81 silly cache add   type: 'version' }
+82 silly addNamed cookie@0.1.2
+83 verbose addNamed "0.1.2" is a plain semver version for cookie
+84 silly mapToRegistry name cookie
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'cookie',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'cookie',
+87 silly mapToRegistry   name: 'cookie',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/cookie
+89 verbose addNameVersion registry:https://registry.npmjs.org/cookie not in flight; fetching
+90 verbose get https://registry.npmjs.org/cookie not expired, no request
+91 silly cache afterAdd cookie@0.1.2
+92 verbose afterAdd /home/vanessa/.npm/cookie/0.1.2/package/package.json not in flight; writing
+93 verbose correctMkdir /home/vanessa/.npm correctMkdir not in flight; initializing
+94 verbose afterAdd /home/vanessa/.npm/cookie/0.1.2/package/package.json written
+95 silly loadAllDepsIntoIdealTree Finishing
+96 silly loadIdealTree Finishing
+97 silly currentTree smartzillow@0.0.0
+97 silly currentTree ├── accepts@1.3.3
+97 silly currentTree ├── acorn-globals@1.0.9
+97 silly currentTree ├── acorn@2.7.0
+97 silly currentTree ├── align-text@0.1.4
+97 silly currentTree ├── amdefine@1.0.1
+97 silly currentTree ├── array-flatten@1.1.1
+97 silly currentTree ├── asap@1.0.0
+97 silly currentTree ├── async@0.2.10
+97 silly currentTree ├── basic-auth@1.0.4
+97 silly currentTree ├── bluebird@2.10.2
+97 silly currentTree ├── body-parser@1.15.2
+97 silly currentTree ├── bson@0.5.7
+97 silly currentTree ├── buffer-shims@1.0.0
+97 silly currentTree ├── bytes@2.4.0
+97 silly currentTree ├── camelcase@1.2.1
+97 silly currentTree ├── center-align@0.1.3
+97 silly currentTree ├── character-parser@1.2.1
+97 silly currentTree ├─┬ clean-css@3.4.21
+97 silly currentTree │ └── commander@2.8.1
+97 silly currentTree ├─┬ cliui@2.1.0
+97 silly currentTree │ └── wordwrap@0.0.2
+97 silly currentTree ├── commander@2.6.0
+97 silly currentTree ├── constantinople@3.0.2
+97 silly currentTree ├── content-disposition@0.5.1
+97 silly currentTree ├── content-type@1.0.2
+97 silly currentTree ├── cookie-parser@1.4.3
+97 silly currentTree ├── cookie-signature@1.0.6
+97 silly currentTree ├── cookie@0.3.1
+97 silly currentTree ├── core-util-is@1.0.2
+97 silly currentTree ├── css-parse@1.0.4
+97 silly currentTree ├── css-stringify@1.0.5
+97 silly currentTree ├── css@1.0.8
+97 silly currentTree ├── debug@2.2.0
+97 silly currentTree ├── decamelize@1.2.0
+97 silly currentTree ├── depd@1.1.0
+97 silly currentTree ├── destroy@1.0.4
+97 silly currentTree ├── ee-first@1.1.1
+97 silly currentTree ├── encodeurl@1.0.1
+97 silly currentTree ├── es6-promise@3.2.1
+97 silly currentTree ├── escape-html@1.0.3
+97 silly currentTree ├── etag@1.7.0
+97 silly currentTree ├── express@4.14.0
+97 silly currentTree ├── finalhandler@0.5.0
+97 silly currentTree ├── forwarded@0.1.0
+97 silly currentTree ├── fresh@0.3.0
+97 silly currentTree ├── graceful-readlink@1.0.1
+97 silly currentTree ├── hooks-fixed@1.2.0
+97 silly currentTree ├── http-errors@1.5.1
+97 silly currentTree ├── iconv-lite@0.4.13
+97 silly currentTree ├── inherits@2.0.3
+97 silly currentTree ├── ipaddr.js@1.1.1
+97 silly currentTree ├── is-buffer@1.1.4
+97 silly currentTree ├── is-promise@2.1.0
+97 silly currentTree ├── isarray@1.0.0
+97 silly currentTree ├── jade@1.11.0
+97 silly currentTree ├── jstransformer@0.0.2
+97 silly currentTree ├── kareem@1.1.3
+97 silly currentTree ├── kind-of@3.0.4
+97 silly currentTree ├── lazy-cache@1.0.4
+97 silly currentTree ├── lodash@4.17.2
+97 silly currentTree ├── longest@1.0.1
+97 silly currentTree ├── media-typer@0.3.0
+97 silly currentTree ├── merge-descriptors@1.0.1
+97 silly currentTree ├── methods@1.1.2
+97 silly currentTree ├── mime-db@1.25.0
+97 silly currentTree ├── mime-types@2.1.13
+97 silly currentTree ├── mime@1.3.4
+97 silly currentTree ├── minimist@0.0.8
+97 silly currentTree ├── mkdirp@0.5.1
+97 silly currentTree ├── mongodb-core@2.0.13
+97 silly currentTree ├── mongodb@2.2.11
+97 silly currentTree ├─┬ mongoose@4.7.1
+97 silly currentTree │ └── async@2.1.2
+97 silly currentTree ├── morgan@1.7.0
+97 silly currentTree ├── mpath@0.2.1
+97 silly currentTree ├── mpromise@0.5.5
+97 silly currentTree ├─┬ mquery@2.0.0
+97 silly currentTree │ └── sliced@0.0.5
+97 silly currentTree ├── ms@0.7.1
+97 silly currentTree ├── muri@1.1.1
+97 silly currentTree ├── negotiator@0.6.1
+97 silly currentTree ├── on-finished@2.3.0
+97 silly currentTree ├── on-headers@1.0.1
+97 silly currentTree ├── optimist@0.3.7
+97 silly currentTree ├── parseurl@1.3.1
+97 silly currentTree ├── password-hash@1.2.2
+97 silly currentTree ├── path-to-regexp@0.1.7
+97 silly currentTree ├── process-nextick-args@1.0.7
+97 silly currentTree ├── promise@6.1.0
+97 silly currentTree ├── proxy-addr@1.1.2
+97 silly currentTree ├── qs@6.2.0
+97 silly currentTree ├── range-parser@1.2.0
+97 silly currentTree ├── raw-body@2.1.7
+97 silly currentTree ├── readable-stream@2.1.5
+97 silly currentTree ├── regexp-clone@0.0.1
+97 silly currentTree ├── repeat-string@1.6.1
+97 silly currentTree ├── require_optional@1.0.0
+97 silly currentTree ├── resolve-from@2.0.0
+97 silly currentTree ├── right-align@0.1.3
+97 silly currentTree ├── semver@5.3.0
+97 silly currentTree ├── send@0.14.1
+97 silly currentTree ├─┬ serve-favicon@2.3.2
+97 silly currentTree │ └── ms@0.7.2
+97 silly currentTree ├── serve-static@1.11.1
+97 silly currentTree ├── setprototypeof@1.0.2
+97 silly currentTree ├── sliced@1.0.1
+97 silly currentTree ├── source-map@0.4.4
+97 silly currentTree ├── statuses@1.3.1
+97 silly currentTree ├── string_decoder@0.10.31
+97 silly currentTree ├── supervisor@0.12.0
+97 silly currentTree ├─┬ transformers@2.1.0
+97 silly currentTree │ ├── is-promise@1.0.1
+97 silly currentTree │ ├── promise@2.0.0
+97 silly currentTree │ ├── source-map@0.1.43
+97 silly currentTree │ └── uglify-js@2.2.5
+97 silly currentTree ├── type-is@1.6.14
+97 silly currentTree ├─┬ uglify-js@2.7.5
+97 silly currentTree │ └── source-map@0.5.6
+97 silly currentTree ├── uglify-to-browserify@1.0.2
+97 silly currentTree ├── unpipe@1.0.0
+97 silly currentTree ├── util-deprecate@1.0.2
+97 silly currentTree ├── utils-merge@1.0.0
+97 silly currentTree ├── vary@1.1.0
+97 silly currentTree ├── void-elements@2.0.1
+97 silly currentTree ├── window-size@0.1.0
+97 silly currentTree ├─┬ with@4.0.3
+97 silly currentTree │ └── acorn@1.2.2
+97 silly currentTree ├── wordwrap@0.0.3
+97 silly currentTree └── yargs@3.10.0
+98 silly idealTree smartzillow@0.0.0
+98 silly idealTree ├── accepts@1.3.3
+98 silly idealTree ├── acorn-globals@1.0.9
+98 silly idealTree ├── acorn@2.7.0
+98 silly idealTree ├── align-text@0.1.4
+98 silly idealTree ├── amdefine@1.0.1
+98 silly idealTree ├── array-flatten@1.1.1
+98 silly idealTree ├── asap@1.0.0
+98 silly idealTree ├── async@0.2.10
+98 silly idealTree ├── basic-auth@1.0.4
+98 silly idealTree ├── bluebird@2.10.2
+98 silly idealTree ├── body-parser@1.15.2
+98 silly idealTree ├── bson@0.5.7
+98 silly idealTree ├── buffer-shims@1.0.0
+98 silly idealTree ├── bytes@2.4.0
+98 silly idealTree ├── camelcase@1.2.1
+98 silly idealTree ├── center-align@0.1.3
+98 silly idealTree ├── character-parser@1.2.1
+98 silly idealTree ├─┬ clean-css@3.4.21
+98 silly idealTree │ └── commander@2.8.1
+98 silly idealTree ├─┬ client-session@0.1.7
+98 silly idealTree │ └── cookie@0.1.2
+98 silly idealTree ├─┬ cliui@2.1.0
+98 silly idealTree │ └── wordwrap@0.0.2
+98 silly idealTree ├── commander@2.6.0
+98 silly idealTree ├── constantinople@3.0.2
+98 silly idealTree ├── content-disposition@0.5.1
+98 silly idealTree ├── content-type@1.0.2
+98 silly idealTree ├── cookie-parser@1.4.3
+98 silly idealTree ├── cookie-signature@1.0.6
+98 silly idealTree ├── cookie@0.3.1
+98 silly idealTree ├── core-util-is@1.0.2
+98 silly idealTree ├── css-parse@1.0.4
+98 silly idealTree ├── css-stringify@1.0.5
+98 silly idealTree ├── css@1.0.8
+98 silly idealTree ├── debug@2.2.0
+98 silly idealTree ├── decamelize@1.2.0
+98 silly idealTree ├── depd@1.1.0
+98 silly idealTree ├── destroy@1.0.4
+98 silly idealTree ├── ee-first@1.1.1
+98 silly idealTree ├── encodeurl@1.0.1
+98 silly idealTree ├── es6-promise@3.2.1
+98 silly idealTree ├── escape-html@1.0.3
+98 silly idealTree ├── etag@1.7.0
+98 silly idealTree ├── express@4.14.0
+98 silly idealTree ├── finalhandler@0.5.0
+98 silly idealTree ├── forwarded@0.1.0
+98 silly idealTree ├── fresh@0.3.0
+98 silly idealTree ├── graceful-readlink@1.0.1
+98 silly idealTree ├── hooks-fixed@1.2.0
+98 silly idealTree ├── http-errors@1.5.1
+98 silly idealTree ├── iconv-lite@0.4.13
+98 silly idealTree ├── inherits@2.0.3
+98 silly idealTree ├── ipaddr.js@1.1.1
+98 silly idealTree ├── is-buffer@1.1.4
+98 silly idealTree ├── is-promise@2.1.0
+98 silly idealTree ├── isarray@1.0.0
+98 silly idealTree ├── jade@1.11.0
+98 silly idealTree ├── jstransformer@0.0.2
+98 silly idealTree ├── kareem@1.1.3
+98 silly idealTree ├── kind-of@3.0.4
+98 silly idealTree ├── lazy-cache@1.0.4
+98 silly idealTree ├── lodash@4.17.2
+98 silly idealTree ├── longest@1.0.1
+98 silly idealTree ├── media-typer@0.3.0
+98 silly idealTree ├── merge-descriptors@1.0.1
+98 silly idealTree ├── methods@1.1.2
+98 silly idealTree ├── mime-db@1.25.0
+98 silly idealTree ├── mime-types@2.1.13
+98 silly idealTree ├── mime@1.3.4
+98 silly idealTree ├── minimist@0.0.8
+98 silly idealTree ├── mkdirp@0.5.1
+98 silly idealTree ├── mongodb-core@2.0.13
+98 silly idealTree ├── mongodb@2.2.11
+98 silly idealTree ├─┬ mongoose@4.7.1
+98 silly idealTree │ └── async@2.1.2
+98 silly idealTree ├── morgan@1.7.0
+98 silly idealTree ├── mpath@0.2.1
+98 silly idealTree ├── mpromise@0.5.5
+98 silly idealTree ├─┬ mquery@2.0.0
+98 silly idealTree │ └── sliced@0.0.5
+98 silly idealTree ├── ms@0.7.1
+98 silly idealTree ├── muri@1.1.1
+98 silly idealTree ├── negotiator@0.6.1
+98 silly idealTree ├── on-finished@2.3.0
+98 silly idealTree ├── on-headers@1.0.1
+98 silly idealTree ├── optimist@0.3.7
+98 silly idealTree ├── parseurl@1.3.1
+98 silly idealTree ├── password-hash@1.2.2
+98 silly idealTree ├── path-to-regexp@0.1.7
+98 silly idealTree ├── process-nextick-args@1.0.7
+98 silly idealTree ├── promise@6.1.0
+98 silly idealTree ├── proxy-addr@1.1.2
+98 silly idealTree ├── qs@6.2.0
+98 silly idealTree ├── range-parser@1.2.0
+98 silly idealTree ├── raw-body@2.1.7
+98 silly idealTree ├── readable-stream@2.1.5
+98 silly idealTree ├── regexp-clone@0.0.1
+98 silly idealTree ├── repeat-string@1.6.1
+98 silly idealTree ├── require_optional@1.0.0
+98 silly idealTree ├── resolve-from@2.0.0
+98 silly idealTree ├── right-align@0.1.3
+98 silly idealTree ├── semver@5.3.0
+98 silly idealTree ├── send@0.14.1
+98 silly idealTree ├─┬ serve-favicon@2.3.2
+98 silly idealTree │ └── ms@0.7.2
+98 silly idealTree ├── serve-static@1.11.1
+98 silly idealTree ├── setprototypeof@1.0.2
+98 silly idealTree ├── sliced@1.0.1
+98 silly idealTree ├── source-map@0.4.4
+98 silly idealTree ├── statuses@1.3.1
+98 silly idealTree ├── string_decoder@0.10.31
+98 silly idealTree ├── supervisor@0.12.0
+98 silly idealTree ├─┬ transformers@2.1.0
+98 silly idealTree │ ├── is-promise@1.0.1
+98 silly idealTree │ ├── promise@2.0.0
+98 silly idealTree │ ├── source-map@0.1.43
+98 silly idealTree │ └── uglify-js@2.2.5
+98 silly idealTree ├── type-is@1.6.14
+98 silly idealTree ├─┬ uglify-js@2.7.5
+98 silly idealTree │ └── source-map@0.5.6
+98 silly idealTree ├── uglify-to-browserify@1.0.2
+98 silly idealTree ├── unpipe@1.0.0
+98 silly idealTree ├── util-deprecate@1.0.2
+98 silly idealTree ├── utils-merge@1.0.0
+98 silly idealTree ├── vary@1.1.0
+98 silly idealTree ├── void-elements@2.0.1
+98 silly idealTree ├── window-size@0.1.0
+98 silly idealTree ├─┬ with@4.0.3
+98 silly idealTree │ └── acorn@1.2.2
+98 silly idealTree ├── wordwrap@0.0.3
+98 silly idealTree └── yargs@3.10.0
+99 silly generateActionsToTake Starting
+100 silly install generateActionsToTake
+101 silly generateActionsToTake Finishing
+102 silly diffTrees action count 2
+103 silly diffTrees add cookie@0.1.2
+104 silly diffTrees add client-session@0.1.7
+105 silly decomposeActions action count 16
+106 silly decomposeActions fetch cookie@0.1.2
+107 silly decomposeActions extract cookie@0.1.2
+108 silly decomposeActions test cookie@0.1.2
+109 silly decomposeActions preinstall cookie@0.1.2
+110 silly decomposeActions build cookie@0.1.2
+111 silly decomposeActions install cookie@0.1.2
+112 silly decomposeActions postinstall cookie@0.1.2
+113 silly decomposeActions finalize cookie@0.1.2
+114 silly decomposeActions fetch client-session@0.1.7
+115 silly decomposeActions extract client-session@0.1.7
+116 silly decomposeActions test client-session@0.1.7
+117 silly decomposeActions preinstall client-session@0.1.7
+118 silly decomposeActions build client-session@0.1.7
+119 silly decomposeActions install client-session@0.1.7
+120 silly decomposeActions postinstall client-session@0.1.7
+121 silly decomposeActions finalize client-session@0.1.7
+122 silly runTopLevelLifecycles Starting
+123 silly executeActions Starting
+124 silly install executeActions
+125 silly doSerial global-install 0
+126 silly doParallel fetch 2
+127 verbose correctMkdir /home/vanessa/.npm/_locks correctMkdir not in flight; initializing
+128 verbose lock using /home/vanessa/.npm/_locks/staging-68ab4de7a35279de.lock for /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging
+129 silly doParallel extract 2
+130 silly extract cookie@0.1.2
+131 silly extract client-session@0.1.7
+132 verbose unbuild node_modules/.staging/cookie-c8fe2257
+133 verbose unbuild node_modules/.staging/client-session-ce601485
+134 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/cookie-c8fe2257 is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+135 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/cookie-c8fe2257
+136 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/client-session-ce601485 is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+137 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/client-session-ce601485
+138 verbose tar unpack /home/vanessa/.npm/cookie/0.1.2/package.tgz
+139 verbose tar unpacking to /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/cookie-c8fe2257
+140 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/cookie-c8fe2257 is being purged
+141 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/cookie-c8fe2257
+142 verbose tar unpack /home/vanessa/.npm/client-session/0.1.7/package.tgz
+143 verbose tar unpacking to /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/client-session-ce601485
+144 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/client-session-ce601485 is being purged
+145 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/client-session-ce601485
+146 silly gunzTarPerm modes [ '775', '664' ]
+147 silly gunzTarPerm modes [ '775', '664' ]
+148 silly gunzTarPerm extractEntry package.json
+149 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+152 silly gunzTarPerm extractEntry .npmignore
+153 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+154 silly gunzTarPerm extractEntry README.md
+155 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+156 silly gunzTarPerm extractEntry .npmignore
+157 silly gunzTarPerm modified mode [ '.npmignore', 438, 436 ]
+158 silly gunzTarPerm extractEntry README.md
+159 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+160 silly gunzTarPerm extractEntry LICENSE
+161 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+162 silly gunzTarPerm extractEntry index.js
+163 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+164 silly gunzTarPerm extractEntry index.js
+165 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+166 silly gunzTarPerm extractEntry binding.gyp
+167 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 436 ]
+168 silly gunzTarPerm extractEntry example/multi_process_node.js
+169 silly gunzTarPerm modified mode [ 'example/multi_process_node.js', 438, 436 ]
+170 silly gunzTarPerm extractEntry example/one_process_express.js
+171 silly gunzTarPerm modified mode [ 'example/one_process_express.js', 438, 436 ]
+172 silly gunzTarPerm extractEntry example/one_process_node.js
+173 silly gunzTarPerm modified mode [ 'example/one_process_node.js', 438, 436 ]
+174 silly gunzTarPerm extractEntry example/redirect_node.js
+175 silly gunzTarPerm modified mode [ 'example/redirect_node.js', 438, 436 ]
+176 silly gunzTarPerm extractEntry example/simple.js
+177 silly gunzTarPerm modified mode [ 'example/simple.js', 438, 436 ]
+178 silly gunzTarPerm extractEntry example/simple_express.js
+179 silly gunzTarPerm modified mode [ 'example/simple_express.js', 438, 436 ]
+180 silly gunzTarPerm extractEntry example/1.txt
+181 silly gunzTarPerm modified mode [ 'example/1.txt', 438, 436 ]
+182 silly gunzTarPerm extractEntry .travis.yml
+183 silly gunzTarPerm modified mode [ '.travis.yml', 438, 436 ]
+184 silly gunzTarPerm extractEntry lib/client_session.js
+185 silly gunzTarPerm modified mode [ 'lib/client_session.js', 438, 436 ]
+186 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/cookie-c8fe2257/node_modules is being purged
+187 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/cookie-c8fe2257/node_modules
+188 silly gunzTarPerm extractEntry benchmark/benchmark_clinet_session_express.js
+189 silly gunzTarPerm modified mode [ 'benchmark/benchmark_clinet_session_express.js', 438, 436 ]
+190 silly gunzTarPerm extractEntry benchmark/benchmark_redis_session_express.js
+191 silly gunzTarPerm modified mode [ 'benchmark/benchmark_redis_session_express.js', 438, 436 ]
+192 silly gunzTarPerm extractEntry src/base64.cpp
+193 silly gunzTarPerm modified mode [ 'src/base64.cpp', 438, 436 ]
+194 silly gunzTarPerm extractEntry src/base64.h
+195 silly gunzTarPerm modified mode [ 'src/base64.h', 438, 436 ]
+196 silly gunzTarPerm extractEntry src/client_session_class.cpp
+197 silly gunzTarPerm modified mode [ 'src/client_session_class.cpp', 438, 436 ]
+198 silly gunzTarPerm extractEntry src/client_session_class.h
+199 silly gunzTarPerm modified mode [ 'src/client_session_class.h', 438, 436 ]
+200 silly gunzTarPerm extractEntry src/clientsession.cpp
+201 silly gunzTarPerm modified mode [ 'src/clientsession.cpp', 438, 436 ]
+202 silly gunzTarPerm extractEntry src/main.cpp
+203 silly gunzTarPerm modified mode [ 'src/main.cpp', 438, 436 ]
+204 silly gunzTarPerm extractEntry src/md5.cpp
+205 silly gunzTarPerm modified mode [ 'src/md5.cpp', 438, 436 ]
+206 silly gunzTarPerm extractEntry src/md5.h
+207 silly gunzTarPerm modified mode [ 'src/md5.h', 438, 436 ]
+208 silly gunzTarPerm extractEntry src/modp_base64/modp_b64.cc
+209 silly gunzTarPerm modified mode [ 'src/modp_base64/modp_b64.cc', 438, 436 ]
+210 silly gunzTarPerm extractEntry src/modp_base64/modp_b64.h
+211 silly gunzTarPerm modified mode [ 'src/modp_base64/modp_b64.h', 438, 436 ]
+212 silly gunzTarPerm extractEntry src/modp_base64/modp_b64_data.h
+213 silly gunzTarPerm modified mode [ 'src/modp_base64/modp_b64_data.h', 438, 436 ]
+214 silly gunzTarPerm extractEntry test/main.js
+215 silly gunzTarPerm modified mode [ 'test/main.js', 438, 436 ]
+216 silly gunzTarPerm extractEntry vendor.yml
+217 silly gunzTarPerm modified mode [ 'vendor.yml', 438, 436 ]
+218 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/client-session-ce601485/node_modules is being purged
+219 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging/client-session-ce601485/node_modules
+220 silly doParallel preinstall 2
+221 silly preinstall cookie@0.1.2
+222 info lifecycle cookie@0.1.2~preinstall: cookie@0.1.2
+223 silly preinstall client-session@0.1.7
+224 info lifecycle client-session@0.1.7~preinstall: client-session@0.1.7
+225 silly lifecycle cookie@0.1.2~preinstall: no script for preinstall, continuing
+226 silly lifecycle client-session@0.1.7~preinstall: no script for preinstall, continuing
+227 silly doReverseSerial remove 0
+228 silly doSerial move 0
+229 silly doSerial finalize 2
+230 silly finalize /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+231 silly finalize /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+232 silly doSerial build 2
+233 silly build cookie@0.1.2
+234 info linkStuff cookie@0.1.2
+235 silly linkStuff cookie@0.1.2 has /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules as its parent node_modules
+236 verbose linkBins cookie@0.1.2
+237 verbose linkMans cookie@0.1.2
+238 silly build client-session@0.1.7
+239 info linkStuff client-session@0.1.7
+240 silly linkStuff client-session@0.1.7 has /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules as its parent node_modules
+241 verbose linkBins client-session@0.1.7
+242 verbose linkMans client-session@0.1.7
+243 silly doSerial global-link 0
+244 silly doParallel update-linked 0
+245 silly doSerial install 2
+246 silly install cookie@0.1.2
+247 info lifecycle cookie@0.1.2~install: cookie@0.1.2
+248 silly lifecycle cookie@0.1.2~install: no script for install, continuing
+249 silly install client-session@0.1.7
+250 info lifecycle client-session@0.1.7~install: client-session@0.1.7
+251 verbose lifecycle client-session@0.1.7~install: unsafe-perm in lifecycle true
+252 verbose lifecycle client-session@0.1.7~install: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/.bin:/home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.bin:/home/vanessa/bin:/home/vanessa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+253 verbose lifecycle client-session@0.1.7~install: CWD: /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+254 silly lifecycle client-session@0.1.7~install: Args: [ '-c', 'node-gyp rebuild' ]
+255 silly lifecycle client-session@0.1.7~install: Returned: code: 1  signal: null
+256 info lifecycle client-session@0.1.7~install: Failed to exec install script
+257 verbose unlock done using /home/vanessa/.npm/_locks/staging-68ab4de7a35279de.lock for /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/.staging
+258 silly rollbackFailedOptional Starting
+259 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+260 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+261 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+262 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+263 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+264 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+265 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+266 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+267 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+268 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+269 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+270 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+271 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+272 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+273 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+274 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+275 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+276 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+277 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+278 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+279 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+280 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+281 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+282 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+283 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+284 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+285 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+286 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+287 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+288 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+289 silly gentlyRm /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session is being purged from base /home/vanessa/Documents/SmartZillow/SmartZillow
+290 verbose gentlyRm don't care about contents; nuking /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+291 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+292 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+293 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+294 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+295 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+296 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+297 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+298 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules/cookie
+299 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+300 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+301 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+302 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+303 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+304 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+305 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+306 silly vacuum-fs purging /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session
+307 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+308 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+309 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+310 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+311 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+312 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+313 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+314 silly vacuum-fs removing /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules/client-session/node_modules
+315 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+316 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+317 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+318 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+319 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+320 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+321 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+322 silly vacuum-fs quitting because other entries in /home/vanessa/Documents/SmartZillow/SmartZillow/node_modules
+323 silly rollbackFailedOptional Finishing
+324 silly runTopLevelLifecycles Finishing
+325 silly install printInstalled
+326 verbose stack Error: client-session@0.1.7 install: `node-gyp rebuild`
+326 verbose stack Exit status 1
+326 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+326 verbose stack     at emitTwo (events.js:106:13)
+326 verbose stack     at EventEmitter.emit (events.js:191:7)
+326 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+326 verbose stack     at emitTwo (events.js:106:13)
+326 verbose stack     at ChildProcess.emit (events.js:191:7)
+326 verbose stack     at maybeClose (internal/child_process.js:877:16)
+326 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+327 verbose pkgid client-session@0.1.7
+328 verbose cwd /home/vanessa/Documents/SmartZillow/SmartZillow
+329 error Linux 4.4.0-51-generic
+330 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "client-session"
+331 error node v6.9.1
+332 error npm  v4.0.3
+333 error code ELIFECYCLE
+334 error client-session@0.1.7 install: `node-gyp rebuild`
+334 error Exit status 1
+335 error Failed at the client-session@0.1.7 install script 'node-gyp rebuild'.
+335 error Make sure you have the latest version of node.js and npm installed.
+335 error If you do, this is most likely a problem with the client-session package,
+335 error not with npm itself.
+335 error Tell the author that this fails on your system:
+335 error     node-gyp rebuild
+335 error You can get information on how to open an issue for this project with:
+335 error     npm bugs client-session
+335 error Or if that isn't available, you can get their info via:
+335 error     npm owner ls client-session
+335 error There is likely additional logging output above.
+336 verbose exit [ 1, true ]
